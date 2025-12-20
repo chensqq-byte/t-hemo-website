@@ -1,11 +1,12 @@
 import "./globals.css";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "T-HEMO | Tulsa Health-Education & Mentorship Organization",
+export const metadata = {
+  title: "T-HEMO | Hosted by YMM",
   description:
-    "T-HEMO is a mentorship and health-education initiative supporting rural and low-income healthcare pathways, hosted by Youth Medical Mentorship (YMM).",
+    "Tulsa Health-Education & Mentorship Organization (T-HEMO) — mentorship and health-education for rural and low-income healthcare pathways.",
 };
+
 
 function Nav() {
   return (
