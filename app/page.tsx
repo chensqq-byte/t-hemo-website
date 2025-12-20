@@ -1,64 +1,79 @@
-export default function Home() {
+import Link from "next/link";
+
+export default function HomePage() {
   return (
-    <main className="container">
-      <div className="hero">
-        <section className="card">
-          <div className="tag">Tulsa • Rural Oklahoma • Low-income pathways</div>
-          <h1 className="h1" style={{ marginTop: 10 }}>T-HEMO</h1>
-          <p className="lead">
-            Tulsa Health-Education & Mentorship Organization is a “Learn & Pass On” mentorship network
-            supporting aspiring health professionals—starting with high school students—especially from rural
-            communities and low-income educational pathways (including community colleges like TCC).
+    <div className="page">
+      <section className="hero" aria-labelledby="hero-title">
+        <div className="hero-inner">
+          <p className="hero-kicker">Hosted by Youth Medical Mentorship (YMM)</p>
+
+          <h1 id="hero-title" className="hero-title">
+            T-HEMO: Tulsa Health-Education &amp; Mentorship Organization
+          </h1>
+
+          <p className="hero-subtitle">
+            A “give-and-take” digital mentorship platform connecting high school
+            students—especially those from rural and low-income communities—to
+            mentors, resources, and guided pathways into health careers.
           </p>
-          <div className="btnrow">
-            <a className="btnPrimary" href="/get-involved">Get involved</a>
-            <a className="btnSecondary" href="/events">See events</a>
-            <a className="btnSecondary" href="/resources">View resources</a>
+
+          <div className="hero-actions" role="group" aria-label="Primary actions">
+            <Link className="btn btn-primary" href="/get-involved">
+              Get Involved
+            </Link>
+            <Link className="btn btn-secondary" href="/events">
+              View Events
+            </Link>
           </div>
 
-          <div className="kpi">
-            <span className="pill"><b>3</b>&nbsp;<span className="muted">signature events/year</span></span>
-            <span className="pill"><b>June</b>&nbsp;<span className="muted">Workshop</span></span>
-            <span className="pill"><b>Sep</b>&nbsp;<span className="muted">Workshop</span></span>
-            <span className="pill"><b>Feb</b>&nbsp;<span className="muted">Panel</span></span>
-          </div>
-        </section>
+          <div className="hero-highlights" aria-label="Key highlights">
+            <div className="card">
+              <h2 className="card-title">Mentorship Access</h2>
+              <p className="card-text">
+                Structured guidance for students exploring health pathways and
+                preparing for next steps.
+              </p>
+            </div>
 
-        <aside className="card">
-          <h2 className="h2">What we do</h2>
-          <ul>
-            <li><b>Direct mentorship</b> through face-to-face workshops and panels.</li>
-            <li><b>Access-first design</b> for rural students and low-income pathways.</li>
-            <li><b>Sustainability</b> via a “give-and-take” cycle: participants become future mentors.</li>
-            <li><b>Digital hub</b> for event updates, templates, and recordings.</li>
-          </ul>
-          <div style={{ marginTop: 14 }} className="card">
-            <h3 className="h3">Hosted by YMM</h3>
-            <p className="lead" style={{ marginTop: 8 }}>
-              Youth Medical Mentorship (YMM) partners with T-HEMO to strengthen Tulsa’s healthcare pipeline.
-            </p>
-          </div>
-        </aside>
-      </div>
+            <div className="card">
+              <h2 className="card-title">Events</h2>
+              <p className="card-text">
+                Co-branded mentorship events (June / September / February).
+              </p>
+            </div>
 
-      <section className="grid3">
-        <div className="card">
-          <h3 className="h3">For high school students</h3>
-          <p className="lead">Pre-health pathways, college planning, and early mentoring.</p>
-        </div>
-        <div className="card">
-          <h3 className="h3">For mentors</h3>
-          <p className="lead">Share experience, open doors, and support the next generation.</p>
-        </div>
-        <div className="card">
-          <h3 className="h3">For partners</h3>
-          <p className="lead">Co-host events and connect students to opportunities.</p>
+            <div className="card">
+              <h2 className="card-title">Rural + Low-Income Focus</h2>
+              <p className="card-text">
+                Prioritizing students in rural Oklahoma and low-income college
+                pathways (e.g., community colleges).
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
-      <footer className="footer">
-        © {new Date().getFullYear()} T-HEMO • Hosted by Youth Medical Mentorship (YMM)
-      </footer>
-    </main>
+      <section className="section" aria-label="Quick links">
+        <div className="section-inner">
+          <h2 className="section-title">Start here</h2>
+          <div className="grid">
+            <Link className="tile" href="/about">
+              <span className="tile-title">About T-HEMO</span>
+              <span className="tile-text">Mission, approach, and partners.</span>
+            </Link>
+
+            <Link className="tile" href="/resources">
+              <span className="tile-title">Resources</span>
+              <span className="tile-text">Guides, recordings, and support materials.</span>
+            </Link>
+
+            <Link className="tile" href="/contact">
+              <span className="tile-title">Contact</span>
+              <span className="tile-text">Reach out to collaborate or ask questions.</span>
+            </Link>
+          </div>
+        </div>
+      </section>
+    </div>
   );
 }
