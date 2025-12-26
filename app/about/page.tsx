@@ -16,7 +16,14 @@ export default function About() {
           </div>
           <div className="card">
             <h2 className="h2">Model</h2>
-            <p className="lead">“Learn & Pass On”: mentees become future mentors.</p>
+            <p>
+  T-HEMO is built on a “Take & Give” mentorship model. Participants are encouraged
+  to take mentorship, resources, and guidance when they need support, and to give
+  back as mentors, speakers, or peer leaders as they progress. This reciprocal
+  approach promotes leadership development, accountability, and long-term
+  sustainability.
+</p>
+
           </div>
           <div className="card">
             <h2 className="h2">Focus</h2>
