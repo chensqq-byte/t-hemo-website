@@ -52,7 +52,25 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
+<section className="section" aria-label="Upcoming events">
+  <div className="section-inner">
+    <h2 className="section-title">Planned fellowship events</h2>
+    <div className="grid">
+      <div className="tile">
+        <span className="tile-title">June</span>
+        <span className="tile-text">High School → Pre-Health Pathways Workshop</span>
+      </div>
+      <div className="tile">
+        <span className="tile-title">September</span>
+        <span className="tile-text">Pre-Health → Medical/Graduate School Application Workshop</span>
+      </div>
+      <div className="tile">
+        <span className="tile-title">February</span>
+        <span className="tile-text">Healthcare Career Pathways Panel</span>
+      </div>
+    </div>
+  </div>
+</section>
       <section className="section" aria-label="Quick links">
         <div className="section-inner">
           <h2 className="section-title">Start here</h2>

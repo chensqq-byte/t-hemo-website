@@ -26,13 +26,13 @@ export default function Header() {
       <div className="header-inner">
         <Link href="/" className="brand" aria-label="T-HEMO home">
           <div className="brand-logo" aria-hidden="false">
-            <Image
-              src="/ymm-logo.jpg"
-              alt="Youth Medical Mentorship (YMM) logo"
-              width={56}
-              height={56}
-              priority
-            />
+<Image
+  src="/themo-logo.svg"
+  alt="T-HEMO logo"
+  width={56}
+  height={56}
+  priority
+/>
           </div>
 
           <div className="brand-text">
