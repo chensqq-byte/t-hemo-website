@@ -7,7 +7,11 @@ export default function About() {
           T-HEMO is a mentorship and health-education initiative built to reduce barriers for students
           pursuing healthcare careers—starting with high school students and prioritizing rural communities
           and low-income educational pathways (including community colleges like TCC).
-        </p>
+        </p>\
+        <div className="card">
+            <h2 className="h2">Background</h2>
+            <p className="lead">[statistics about Rural Oklahoma]</p>
+        </div>
 
         <div className="grid3">
           <div className="card">
