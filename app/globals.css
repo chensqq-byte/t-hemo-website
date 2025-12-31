@@ -3,7 +3,7 @@
   --text: #0b1220;
   --muted: #445066;
   --border: #e6e8ee;
-  --card: #ffc857;
+  --card: #fcde9f;
 
   --primary: #0b69ff;
   --primary-strong: #0958d6;
@@ -290,8 +290,8 @@ button:focus-visible {
 }
 
 .tile:hover {
-  background: #eef4ff;
-  border-color: #cfe0ff;
+  background: #ffc857;
+  border-color: #fcde9f;
 }
 
 .tile-title {
