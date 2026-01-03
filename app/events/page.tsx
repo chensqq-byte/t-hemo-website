@@ -12,7 +12,7 @@ export default function EventsPage() {
           <h2 style={h2}>1) High School → Pre-Health Pathways Workshop (June)</h2>
           <p style={p}>
             An in-person workshop supporting high school students—particularly
-            those from rural and low-income communities—focused on college
+            those from rural and economically disadvantaged communities—focused on college
             preparation, healthcare career exploration, and early academic
             planning. Food will be provided.
           </p>

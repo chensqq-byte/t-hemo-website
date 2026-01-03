@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 export const metadata: Metadata = {
   title: "T-HEMO | Hosted by YMM",
   description:
-    "Tulsa Health-Education & Mentorship Organization (T-HEMO) — a digital mentorship platform supporting rural and low-income students, hosted by Youth Medical Mentorship (YMM).",
+    "Tulsa Health-Education & Mentorship Organization (T-HEMO) — a digital mentorship platform supporting rural and economically disadvantaged students, hosted by Youth Medical Mentorship (YMM).",
 };
 
 export default function RootLayout({

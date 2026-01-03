@@ -13,7 +13,7 @@ export default function HomePage() {
 
           <p className="hero-subtitle">
             A “give-and-take” digital mentorship platform connecting high school
-            students—especially those from rural and low-income communities—to
+            students—especially those from rural and economically disadvantaged communities—to
             mentors, resources, and guided pathways into health careers.
           </p>
 
@@ -43,9 +43,9 @@ export default function HomePage() {
             </div>
 
             <div className="card">
-              <h2 className="card-title">Rural + Low-Income Focus</h2>
+              <h2 className="card-title">Rural + economically disadvantaged Focus</h2>
               <p className="card-text">
-                Prioritizing students in rural Oklahoma and low-income college
+                Prioritizing students in rural Oklahoma and economically disadvantaged college
                 pathways (e.g., community colleges).
               </p>
             </div>
