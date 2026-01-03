@@ -9,7 +9,7 @@ export default function Contact() {
         <div style={{ marginTop: 14 }} className="card">
           <p style={{ margin: 0 }}><b>Email:</b> xic9512@utulsa.edu</p>
           <p className="muted" style={{ marginTop: 8 }}>
-            Replace this with a public contact form if you prefer before launch.
+            
           </p>
         </div>
       </section>
