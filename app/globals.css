@@ -1,9 +1,9 @@
 :root {
-  --bg: #ffffff;
+  --bg: #cde6f5;
   --text: #0b1220;
   --muted: #445066;
   --border: #e6e8ee;
-  --card: #f7f9fc;
+  --card: #fcde9f;
 
   --primary: #0b69ff;
   --primary-strong: #0958d6;
@@ -223,7 +223,7 @@ button:focus-visible {
 }
 
 .btn-secondary {
-  background: white;
+  background: #fcde9f;
   border-color: var(--border);
   color: var(--text);
 }
@@ -290,8 +290,8 @@ button:focus-visible {
 }
 
 .tile:hover {
-  background: #eef4ff;
-  border-color: #cfe0ff;
+  background: #ffc857;
+  border-color: #fcde9f;
 }
 
 .tile-title {
