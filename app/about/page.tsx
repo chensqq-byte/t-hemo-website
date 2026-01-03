@@ -6,7 +6,7 @@ export default function About() {
         <p className="lead">
           T-HEMO is a mentorship and health-education initiative built to reduce barriers for students
           pursuing healthcare careers—starting with high school students and prioritizing rural communities
-          and low-income educational pathways (including community colleges like TCC).
+          and economically disadvantaged educational pathways (including community colleges like TCC).
         </p>
 
         <div className="grid3">
@@ -27,7 +27,7 @@ export default function About() {
           </div>
           <div className="card">
             <h2 className="h2">Focus</h2>
-            <p className="lead">Rural access, low-income pathways, and practical guidance.</p>
+            <p className="lead">Rural access, economically disadvantaged pathways, and practical guidance.</p>
           </div>
         </div>
 
