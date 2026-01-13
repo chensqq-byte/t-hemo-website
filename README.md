@@ -1,6 +1,6 @@
-# T-HEMO Website (Hosted by YMM)
+# THEhub Website (Hosted by YMM)
 
-**T-HEMO (Tulsa Health-Education & Mentorship Organization)** is a mentorship and health-education initiative that expands access to structured guidance for aspiring healthcare professionals—especially **high-school students from rural and low-income backgrounds**.
+**THEhub (Tulsa Health-Education & Mentorship Organization)** is a mentorship and health-education initiative that expands access to structured guidance for aspiring healthcare professionals—especially **high-school students from rural and economically disadvantaged backgrounds**.
 
 This site serves as the public-facing hub for:
 - Event updates (June / September / February)

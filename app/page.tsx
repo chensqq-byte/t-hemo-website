@@ -8,7 +8,7 @@ export default function HomePage() {
           <p className="hero-kicker">Hosted by Youth Medical Mentorship (YMM)</p>
 
           <h1 id="hero-title" className="hero-title">
-            T-HEMO: Tulsa Health-Education &amp; Mentorship Organization
+            THEhub: Tulsa Health-Education &amp; Mentorship Organization
           </h1>
 
           <p className="hero-subtitle">
@@ -76,7 +76,7 @@ export default function HomePage() {
           <h2 className="section-title">Start here</h2>
           <div className="grid">
             <Link className="tile" href="/about">
-              <span className="tile-title">About T-HEMO</span>
+              <span className="tile-title">About THEhub</span>
               <span className="tile-text">Mission, approach, and partners.</span>
             </Link>
 

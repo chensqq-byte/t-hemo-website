@@ -2,9 +2,9 @@ export default function About() {
   return (
     <main className="container">
       <section className="card">
-        <h1 className="h1" style={{ fontSize: 34 }}>About T-HEMO</h1>
+        <h1 className="h1" style={{ fontSize: 34 }}>About THEhub</h1>
         <p className="lead">
-          T-HEMO is a mentorship and health-education initiative built to reduce barriers for students
+          THEhub is a mentorship and health-education initiative built to reduce barriers for students
           pursuing healthcare careers—starting with high school students and prioritizing rural communities
           and economically disadvantaged educational pathways (including community colleges like TCC).
         </p>
@@ -20,7 +20,7 @@ export default function About() {
           <div className="card">
             <h2 className="h2">Model</h2>
             <p>
-  T-HEMO is built on a “Take & Give” mentorship model. Participants are encouraged
+  THEhub is built on a “Take & Give” mentorship model. Participants are encouraged
   to take mentorship, resources, and guidance when they need support, and to give
   back as mentors, speakers, or peer leaders as they progress. This reciprocal
   approach promotes leadership development, accountability, and long-term

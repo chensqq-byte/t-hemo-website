@@ -3,7 +3,7 @@ export default function EventsPage() {
     <main>
       <h1>Events</h1>
       <p>
-        If this fellowship is awarded, T-HEMO will host a minimum of three
+        If this fellowship is awarded, THEhub will host a minimum of three
         in-person events during the fellowship year.
       </p>
 

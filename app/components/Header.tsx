@@ -24,11 +24,11 @@ export default function Header() {
       </a>
 
       <div className="header-inner">
-        <Link href="/" className="brand" aria-label="T-HEMO home">
+        <Link href="/" className="brand" aria-label="THEhub home">
           <div className="brand-logo" aria-hidden="false">
 <Image
   src="/themo-logo.svg"
-  alt="T-HEMO logo"
+  alt="THEhub logo"
   width={56}
   height={56}
   priority
@@ -36,7 +36,7 @@ export default function Header() {
           </div>
 
           <div className="brand-text">
-            <div className="brand-title">T-HEMO</div>
+            <div className="brand-title">THEhub</div>
             <div className="brand-subtitle">Hosted by YMM</div>
           </div>
         </Link>

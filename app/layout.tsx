@@ -7,10 +7,22 @@ export const metadata: Metadata = {
   title: "THEhub | Tulsa Health-Education Hub | Hosted by YMM",
   description:
     "Tulsa Health-Education Hub (THEhub) connects university research laboratories with aspiring health professionals in Tulsa and surrounding rural communities. Hosted by Youth Medical Mentorship (YMM) as part of the Albert Schweitzer Fellowship – Tulsa Chapter, THEhub expands access to mentorship and guidance for students from rural and economically disadvantaged backgrounds.",
-  openGraph: {
-    title: "THEhub | Hosted by YMM",
-    description:
-      "A research-driven mentorship hub connecting university labs with aspiring health professionals in Tulsa and surrounding rural communities.",
-    type: "website",
-  },
 };
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <body>
+        <Header />
+        <main id="main-content" className="main-content">
+          {children}
+        </main>
+        <Footer />
+      </body>
+    </html>
+  );
+}

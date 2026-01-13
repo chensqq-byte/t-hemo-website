@@ -1,7 +1,7 @@
-# T-HEMO Website (Next.js)
+# THEhub Website (Next.js)
 
-This is a clean starter website for the T-HEMO fellowship proposal.
-It emphasizes: high school focus, rural & low-income access, and "Hosted by YMM".
+This is a clean starter website for the THEhub fellowship proposal.
+It emphasizes: high school focus, rural & economically disadvantaged access, and "Hosted by YMM".
 
 ## Run locally
 ```bash

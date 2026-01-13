@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="site-footer" role="contentinfo">
       <div className="footer-inner">
         <p className="footer-title">
-          T-HEMO — Tulsa Health-Education &amp; Mentorship Organization
+          THEhub — Tulsa Health-Education &amp; Mentorship Organization
         </p>
 
         <p className="footer-text">
@@ -17,7 +17,7 @@ export default function Footer() {
         </p>
 
         <p className="footer-text footer-small">
-          © {new Date().getFullYear()} T-HEMO. All rights reserved.
+          © {new Date().getFullYear()} THEhub. All rights reserved.
         </p>
       </div>
     </footer>
