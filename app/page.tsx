@@ -12,7 +12,7 @@ export default function HomePage() {
           </h1>
 
           <p className="hero-subtitle">
-            A “give-and-take” digital mentorship platform connecting high school
+            A “Take-and-Give” digital mentorship platform connecting high school
             students—especially those from rural and economically disadvantaged communities—to
             mentors, resources, and guided pathways into health careers.
           </p>
